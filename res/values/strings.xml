@@ -6,5 +6,7 @@
     <string name="action_settings">Settings</string>
     <string name="button_login">登陆</string>
     <string name="imgage_text">image test</string>
-
+    <string name="textview_content">罗塞塔号彗星探测器是欧洲空间局组织的无人太空船计划，格林尼治时间2004年3月2日7时17分
+        （北京时间3月2日15时17分）发射，研究楚留莫夫－格拉希门克彗星 代号为67P</string>
+        
 </resources>

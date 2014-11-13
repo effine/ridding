@@ -20,5 +20,27 @@
         android:contentDescription="@string/imgage_text"
         android:src="@drawable/ic_launcher" />
 
+    <com.verphen.ridding.MarqueeText
+        android:id="@+id/id_textview_test"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="130dip"
+        android:ellipsize="marquee"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:singleLine="true"
+        android:text="@string/textview_content" />
+    
+        <com.verphen.ridding.MarqueeText
+        android:id="@+id/id_textview_test1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="160dp"
+        android:ellipsize="marquee"
+        android:singleLine="true"
+		android:focusable="true"
+		android:focusableInTouchMode="true"
+        android:text="@string/textview_content" />
+
 </FrameLayout>
 

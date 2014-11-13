@@ -3,6 +3,7 @@ package com.verphen.ridding;
 import android.app.Activity;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.Menu;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
@@ -23,6 +24,12 @@ public class MainActivity extends Activity implements OnClickListener{
 		
 		imageButton = (ImageButton)findViewById(R.id.id_imageButton_test);
 		imageButton.setOnClickListener(this);
+	}
+	
+	@Override
+	public boolean onCreateOptionsMenu(Menu menu){
+		getMenuInflater().inflate(R.menu.main, menu);
+		return true;
 	}
 	
 	OnClickListener listener = new OnClickListener() {
