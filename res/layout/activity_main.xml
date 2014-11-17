@@ -42,5 +42,26 @@
 		android:focusableInTouchMode="true"
         android:text="@string/textview_content" />
 
+        <AutoCompleteTextView
+            android:id="@+id/id_autoCompleteTextView"
+            android:completionThreshold="2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="200dp"
+            android:ems="10"
+            android:hint="@string/init_text" />
+
+        <MultiAutoCompleteTextView
+            android:id="@+id/id_multiAutoCompleteTextView"
+            android:completionThreshold="2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="240dp"
+            android:ems="10"
+            android:hint="@string/init_text" >
+
+            <requestFocus />
+        </MultiAutoCompleteTextView>
+
 </FrameLayout>
 

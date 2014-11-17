@@ -238,7 +238,7 @@ int id action_context_bar 0x7f05001d
 int id action_menu_divider 0x7f050016
 int id action_menu_presenter 0x7f050017
 int id action_mode_close_button 0x7f050024
-int id action_settings 0x7f050041
+int id action_settings 0x7f050043
 int id activity_chooser_view_content 0x7f050025
 int id always 0x7f05000b
 int id beginning 0x7f050011
@@ -256,8 +256,10 @@ int id expanded_menu 0x7f05002c
 int id home 0x7f050014
 int id homeAsUp 0x7f050005
 int id icon 0x7f05002a
+int id id_autoCompleteTextView 0x7f050041
 int id id_button_login 0x7f05003d
 int id id_imageButton_test 0x7f05003e
+int id id_multiAutoCompleteTextView 0x7f050042
 int id id_textview_test 0x7f05003f
 int id id_textview_test1 0x7f050040
 int id ifRoom 0x7f05000a
@@ -339,6 +341,7 @@ int string app_name 0x7f0a000d
 int string button_login 0x7f0a0010
 int string hello_world 0x7f0a000e
 int string imgage_text 0x7f0a0011
+int string init_text 0x7f0a0013
 int string textview_content 0x7f0a0012
 int style AppBaseTheme 0x7f0b0084
 int style AppTheme 0x7f0b0083
