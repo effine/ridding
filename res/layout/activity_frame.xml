@@ -1,0 +1,68 @@
+<!-- 帧布局 -->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.verphen.ridding.MainActivity"
+    tools:ignore="MergeRootFrame" >
+
+    <Button
+        android:id="@+id/id_button_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_login" />
+
+    <ImageButton
+        android:id="@+id/id_imageButton_test"
+        android:layout_width="match_parent"
+        android:layout_height="50dip"
+        android:layout_margin="70dip"
+        android:contentDescription="@string/imgage_text"
+        android:src="@drawable/ic_launcher" />
+
+    <com.verphen.ridding.MarqueeText
+        android:id="@+id/id_textview_test"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="130dip"
+        android:ellipsize="marquee"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:singleLine="true"
+        android:text="@string/textview_content" />
+    
+        <com.verphen.ridding.MarqueeText
+        android:id="@+id/id_textview_test1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="160dp"
+        android:ellipsize="marquee"
+        android:singleLine="true"
+		android:focusable="true"
+		android:focusableInTouchMode="true"
+        android:text="@string/textview_content" />
+
+        <AutoCompleteTextView
+            android:id="@+id/id_autoCompleteTextView"
+            android:completionThreshold="2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="200dp"
+            android:ems="10"
+            android:hint="@string/init_text" />
+
+        <MultiAutoCompleteTextView
+            android:id="@+id/id_multiAutoCompleteTextView"
+            android:completionThreshold="2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="240dp"
+            android:ems="10"
+            android:hint="@string/init_text" >
+
+            <requestFocus />
+        </MultiAutoCompleteTextView>
+
+</FrameLayout>
+
